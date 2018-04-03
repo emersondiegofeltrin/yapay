@@ -59,11 +59,11 @@ class Yapay {
      */
     private function consultaURL() {
         if ($this->geral()->ambiente() == YapayAmbiente::HOMOLOGACAO) {
-            //return 'https://api.sandbox.traycheckout.com.br/v2/transactions/get_by_token';
-            return 'https://api.intermediador.sandbox.yapay.com.br/api/v3/transactions/get_by_token';
+            return 'https://api.sandbox.traycheckout.com.br/v2/transactions/get_by_token';
+            //return 'https://api.intermediador.sandbox.yapay.com.br/api/v2/transactions/get_by_token';
         } else {
-            //return 'https://api.traycheckout.com.br/v2/transactions/get_by_token';
-            return 'http://api.intermediador.yapay.com.br/v3/transactions/get_by_token';
+            return 'https://api.traycheckout.com.br/v2/transactions/get_by_token';
+            //return 'https://api.intermediador.yapay.com.br/v2/transactions/get_by_token';
         }
     }
 
@@ -123,11 +123,11 @@ class Yapay {
      */
     private function pagamentoURL() {
         if ($this->geral()->ambiente() == YapayAmbiente::HOMOLOGACAO) {
-            //return 'https://api.sandbox.traycheckout.com.br/v2/transactions/pay_complete';
-            return 'https://api.intermediador.sandbox.yapay.com.br/api/v3/transactions/payment';
+            return 'https://api.sandbox.traycheckout.com.br/v2/transactions/pay_complete';
+            //return 'https://api.intermediador.sandbox.yapay.com.br/api/v3/transactions/payment';
         } else {
-            //return 'https://api.traycheckout.com.br/v2/transactions/pay_complete';
-            return 'https://api.intermediador.yapay.com.br/api/v3/transactions/payment';
+            return 'https://api.traycheckout.com.br/v2/transactions/pay_complete';
+            //return 'https://api.intermediador.yapay.com.br/api/v3/transactions/payment';
         }
     }
 
