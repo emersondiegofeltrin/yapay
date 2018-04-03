@@ -6,7 +6,7 @@
  * and open the template in the editor.
  */
 
-namespace edfdans\yapay;
+namespace emersondiegofeltrin\yapay;
 
 /**
  * Description of YapayRetorno

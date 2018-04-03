@@ -1,6 +1,6 @@
 <?php
 
-namespace edfdans\yapay;
+namespace emersondiegofeltrin\yapay;
 
 /**
  * Classe utilizada para gerenciar os clientes
@@ -68,7 +68,7 @@ class YapayCliente {
      * @return (YapayClienteContato)
      */
     public function contatos() {
-        if (is_a($this->contatos, 'edfdans\yapay\YapayClienteContato')) {
+        if (is_a($this->contatos, 'emersondiegofeltrin\yapay\YapayClienteContato')) {
             return $this->contatos;
         } else {
             return new YapayClienteContato();
@@ -80,7 +80,7 @@ class YapayCliente {
      * @return (YapayClienteEndereco)
      */
     public function enderecos() {
-        if (is_a($this->enderecos, 'edfdans\yapay\YapayClienteEndereco')) {
+        if (is_a($this->enderecos, 'emersondiegofeltrin\yapay\YapayClienteEndereco')) {
             return $this->enderecos;
         } else {
             return new YapayClienteEndereco();

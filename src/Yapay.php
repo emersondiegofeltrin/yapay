@@ -1,6 +1,6 @@
 <?php
 
-namespace edfdans\yapay;
+namespace emersondiegofeltrin\yapay;
 
 /**
  * Classe de pagamento para o yapay
@@ -11,7 +11,7 @@ namespace edfdans\yapay;
  *
  * Para iniciar utilize o exemplo teste.php
  * 
- * @package    edfdans
+ * @package    emersondiegofeltrin
  * @subpackage yapay
  * @author     Emerson Diego Feltrin <emerson.diego.feltrin@gmail.com>
  * @version    1.0.0
@@ -195,7 +195,7 @@ class Yapay {
      * @return (YapayCliente)
      */
     public function cliente() {
-        if (is_a($this->cliente, 'edfdans\yapay\YapayCliente')) {
+        if (is_a($this->cliente, 'emersondiegofeltrin\yapay\YapayCliente')) {
             return $this->cliente;
         } else {
             return new YapayCliente();
@@ -314,7 +314,7 @@ class Yapay {
      * @return (YapayGeral)
      */
     public function geral() {
-        if (is_a($this->geral, 'edfdans\yapay\YapayGeral')) {
+        if (is_a($this->geral, 'emersondiegofeltrin\yapay\YapayGeral')) {
             return $this->geral;
         } else {
             return new YapayGeral();
@@ -338,7 +338,7 @@ class Yapay {
      * @return (YapayProdutos)
      */
     public function produtos() {
-        if (is_a($this->produtos, 'edfdans\yapay\YapayProdutos')) {
+        if (is_a($this->produtos, 'emersondiegofeltrin\yapay\YapayProdutos')) {
             return $this->produtos;
         } else {
             return new YapayProdutos();
@@ -350,7 +350,7 @@ class Yapay {
      * @return (YapayRetorno)
      */
     public function retorno() {
-        if (is_a($this->retorno, 'edfdans\yapay\YapayRetorno')) {
+        if (is_a($this->retorno, 'emersondiegofeltrin\yapay\YapayRetorno')) {
             return $this->retorno;
         } else {
             return new YapayRetorno();

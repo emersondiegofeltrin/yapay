@@ -1,6 +1,6 @@
 <?php
 
-namespace edfdans\yapay;
+namespace emersondiegofeltrin\yapay;
 
 /**
  * Classe utilizada para gerenciar os contatos do clientes
