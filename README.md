@@ -1,6 +1,8 @@
 # Yapay
 [![MIT license](https://img.shields.io/dub/l/vibe-d.svg)](http://opensource.org/licenses/MIT)
 
+# ATENÇÃO! ESSE PACOTE FOI DESCONTINUADO, PESQUISE PELO INTEGRADOR DA YAPAY
+
 Esse pacote irá permitir o envio e consulta de pagamentos da Yapay.
 
 ### SOMENTE GERAÇÃO DE BOLETO
